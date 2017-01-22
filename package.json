@@ -1,7 +1,7 @@
 {
   "name": "karen-wilson",
   "version": "0.0.1",
-  "description": "Command line interface to the Wi-Fi router HG100R-02G",
+  "description": "Command line interface to the Wi-Fi router HUMAX HG100R-02G",
   "main": "index.js",
   "scripts": {
     "start": "node bin.js",
