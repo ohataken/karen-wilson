@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ohataken/karen-wilson/issues"
   },
-  "homepage": "https://github.com/ohataken/karen-wilson#readme"
+  "homepage": "https://github.com/ohataken/karen-wilson#readme",
+  "dependencies": {
+    "node-json-rpc": "0.0.1"
+  }
 }
