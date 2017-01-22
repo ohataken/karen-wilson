@@ -29,6 +29,20 @@ const subcommandTable = {
     }
   },
 
+  forwardings: {
+    description: "port forwardings",
+    proc: () => {
+      karenWilson.login(client, 1, {
+        id: USERNAME,
+        password: PASSWORD,
+      }, (err, res) => {
+        karenWilson.advancedGetForwarding(client, 1, res.token, (err, res) =>{
+          console.log(res.result.forwarding);
+        });
+      });
+    }
+  },
+
   help: {
     description: "help",
     proc: () => {
